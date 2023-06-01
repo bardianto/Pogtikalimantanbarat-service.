@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Linktree Background Music</title>
+    <style>
+        body {
+            background-color: #f3f3f3;
+        }
+        #audio-container {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #ffffff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="audio-container">
+        <audio controls autoplay loop>
+            <source src="https://drive.google.com/uc?export=download&id=16Alb51wlTAfbZYSmxNINpz6cvEj1_IP0" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</body>
+</html>
